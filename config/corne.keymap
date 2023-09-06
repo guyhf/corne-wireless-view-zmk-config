@@ -49,7 +49,7 @@
 &trans  &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3  &kp N4  &kp NUMBER_5    &kp NUMBER_6     &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9     &kp NUMBER_0  &kp DELETE
 &to 0   &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans        &trans  &kp MINUS       &kp KP_ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp KP_EQUAL
 &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans        &trans  &kp SLASH       &kp KP_COMMA     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT    &mt KP_ENTER RIGHT_CONTROL
-                                             &trans        &trans  &trans          &trans           &trans           &kp KP_NUMBER_0
+                                             &trans        &trans  &trans          &kp RIGHT_GUI    &trans           &kp KP_NUMBER_0
             >;
 
             label = "Num";
