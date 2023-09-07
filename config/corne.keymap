@@ -21,7 +21,7 @@
 
             label = "Base";
             bindings = <
-&kp TAB                  &kp Q  &kp W  &kp E         &kp R          &kp T       &kp Y      &kp U        &kp I          &kp O    &kp P     &kp MINUS
+&kp TAB                  &kp Q  &kp W  &kp E         &kp R          &kp T       &kp Y      &kp U        &kp I          &kp O    &kp P     &kp BSLH
 &mt LEFT_CONTROL ESCAPE  &kp A  &kp S  &kp D         &kp F          &kp G       &kp H      &kp J        &kp K          &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT           &kp Z  &kp X  &kp C         &kp V          &kp B       &kp N      &kp M        &kp COMMA      &kp DOT  &kp FSLH  &lt 3 TILDE
                                        &lt 2 DELETE  &kp BACKSPACE  &kp LCMD    &lt 1 RET  &lt 2 SPACE  &kp RIGHT_ALT
@@ -37,10 +37,10 @@
 
             label = "Raise";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT    &kp HASH        &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR         &kp RPAR  &kp BACKSLASH
-&kp LCTRL  &trans    &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT         &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans    &kp DOWN_ARROW  &trans           &trans       &kp PIPE   &kp PLUS   &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp PIPE  &kp TILDE
-                               &trans          &trans           &kp LCMD     &kp RET    &trans     &kp RALT
+&kp EQUAL  &kp EXCL  &kp AT    &kp HASH        &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR         &kp RPAR  &kp UNDERSCORE
+&kp LCTRL  &trans    &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &trans       &trans     &trans    &kp LBKT         &kp RBKT         &kp BSLH  &kp GRAVE
+&kp LSHFT  &trans    &trans    &kp DOWN_ARROW  &trans           &trans       &kp PLUS   &trans    &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp PIPE  &kp TILDE
+                               &trans          &trans           &kp LCMD     &kp RET    &trans    &kp RALT
             >;
         };
 
