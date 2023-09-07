@@ -37,7 +37,7 @@
 
             label = "Raise";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT    &kp HASH        &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR         &kp RPAR  &kp BSPC
+&kp TAB    &kp EXCL  &kp AT    &kp HASH        &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR         &kp RPAR  &kp UNDERSCORE
 &kp LCTRL  &trans    &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT         &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans    &trans    &kp DOWN_ARROW  &trans           &trans       &kp UNDER  &kp PLUS   &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp PIPE  &kp TILDE
                                &trans          &trans           &kp LCMD     &kp RET    &trans     &kp RALT
